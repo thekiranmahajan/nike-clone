@@ -9,6 +9,8 @@ import {
   CustomerReviews,
 } from "./sections";
 import Nav from "./Components/Nav";
+
+
 const App = () => (
   <main className="relative">
     <Nav />
