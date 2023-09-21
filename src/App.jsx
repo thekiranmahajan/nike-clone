@@ -1,5 +1,3 @@
-import Nav from "./components/Nav.jsx";
-
 import {
   CustomerReviews,
   Footer,
@@ -9,6 +7,7 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  Nav,
 } from "./sections";
 
 const App = () => {
