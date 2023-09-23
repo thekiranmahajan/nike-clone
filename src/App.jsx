@@ -1,13 +1,13 @@
+import Nav from "./components/Nav";
 import {
-  CustomerReviews,
-  Footer,
   Hero,
   PopularProducts,
+  SuperQuality,
   Services,
   SpecialOffer,
+  CustomerReviews,
   Subscribe,
-  SuperQuality,
-  Nav,
+  Footer,
 } from "./sections";
 
 const App = () => {

@@ -1,6 +1,6 @@
+import { arrowRight } from "../assets/icons";
 import { offer } from "../assets/images";
 import Button from "../components/Button";
-import { arrowRight } from "../assets/icons";
 
 const SpecialOffer = () => {
   return (
@@ -8,7 +8,7 @@ const SpecialOffer = () => {
       <div className="flex-1">
         <img
           src={offer}
-          alt=""
+          alt="offerImg"
           width={773}
           height={687}
           className="object-contain w-full"
@@ -29,7 +29,7 @@ const SpecialOffer = () => {
           nothing short of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop Now" iconURL={arrowRight} />{" "}
+          <Button label="Shop Now" iconURL={arrowRight} />
           <Button
             label="Learn More"
             iconURL={arrowRight}
